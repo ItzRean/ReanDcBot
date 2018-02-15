@@ -9,6 +9,12 @@ client.on("message", (message) => {
   if (message.content.startsWith("!hello")) {
     message.reply("Hai!");
   }
+  if (message.content.startsWith("!version")) {
+    message.reply("ReanBot Version: 0.0.1");
+  }
+    if (message.content.startsWith("!developer")) {
+    message.reply("The developer");
+  }
 });
 
 // THIS  MUST  BE  THIS  WAY
