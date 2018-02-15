@@ -27,6 +27,9 @@ client.on("message", (message) => {
         if (message.content.startsWith("!ineedfriends")) {
     message.channel.send(" ```Thats gone be $50 for 1 fake friend!```");
   }
+        if (message.content.startsWith("!hkq")) {
+    message.channel.send(" ```Litle girls with dreams become women with vision ```");
+  }
   
 });
 
