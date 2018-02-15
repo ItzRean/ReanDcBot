@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Rean') {
-    	message.reply('Is Our God Developer we need him in our life');
+    if (message.content === '!faggot') {
+    	message.reply('Is a Nazi Faggot');
   	}
 });
 
