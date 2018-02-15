@@ -1,21 +1,14 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => {
-    console.log('I am ready!');
-});
+client.on("message", (message) => {
+  if (message.content.startsWith("ping")) {
+    message.channel.send("pong!");
+  } else
 
-client.on('message', message => {
-    if (message.content === '!life') {
-    	message.reply('life is a big lie');
-    }
-  
-client.on('message', message => {
-    if (message.content === '!friends') {
-    	message.reply('life is a big lie');
-    }
-    
-                                         
+  if (message.content.startsWith("!hello")) {
+    message.channel.send("Hai!");
+  }
 });
 
 // THIS  MUST  BE  THIS  WAY
