@@ -1,6 +1,14 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+bot.on('message', function() {
+    if (message.content === "$loop") { 
+      var interval = setInterval (function () {
+        message.channel.send("Omicron Likes Dick")
+      }, 1 * 1000); 
+    }
+});
+
 client.on("message", (message) => {
   if (message.content.startsWith("!friends")) {
     message.channel.send(" ```I can be your friend!``` ");
