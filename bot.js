@@ -9,9 +9,14 @@ client.on('message', message => {
     if (message.content === '!faggot') {
     	message.reply('Is a Nazi Faggot');
   	}
+});
+
+});
+
 client.on('message', message => {
-    if (message.content === '!alone') {
-    	message.reply('Some day you will have friends');
+    if (message.content === '!life') {
+    	message.reply('a lie');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
