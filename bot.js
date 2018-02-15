@@ -18,6 +18,9 @@ client.on("message", (message) => {
     if (message.content.startsWith("!credit")) {
     message.channel.send(" ```Credits to: Tami, Omicron,TheLostName For Testing``` ");
   }
+      if (message.content.startsWith("!buy")) {
+    message.channel.send(" ```Please dm @rean#4356 ``` ");
+  }
   
 });
 
