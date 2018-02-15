@@ -25,7 +25,7 @@ client.on("message", (message) => {
     message.channel.send(" https://gyazo.com/796975f0cdaeb7f184b7965709825a79 ");
   }
         if (message.content.startsWith("!prices")) {
-    message.channel.send(" ```**GFX:** $5-$10 **Setups:** $10-$200 **Accounts:** $0.5-$2 ```");
+    message.channel.send(" ```GFX:$5-$10 Setups:$10-$200 Accounts:$0.5-$2 ```");
   }
   
 });
