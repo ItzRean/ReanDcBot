@@ -13,7 +13,7 @@ client.on("message", (message) => {
     message.reply("ReanBot Version: 0.0.1");
   }
     if (message.content.startsWith("!developer")) {
-    message.reply("The developer");
+    message.reply("The developer is Rean#4356");
   }
 });
 
