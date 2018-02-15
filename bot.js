@@ -15,6 +15,10 @@ client.on("message", (message) => {
     if (message.content.startsWith("!developer")) {
     message.reply("The developer is Rean#4356");
   }
+    if (message.content.startsWith("!credit")) {
+    message.channel.send("Credits to: Tami Omicron TheLostName For Testing");
+  }
+  
 });
 
 // THIS  MUST  BE  THIS  WAY
