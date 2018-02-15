@@ -8,10 +8,13 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '!life') {
     	message.reply('life is a big lie');
-  	
-    if (message.content === '!friends') {
-    	message.reply('is looking for friends');
     }
+  
+client.on('message', message => {
+    if (message.content === '!friends') {
+    	message.reply('life is a big lie');
+    }
+    
                                          
 });
 
