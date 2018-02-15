@@ -24,8 +24,8 @@ client.on("message", (message) => {
         if (message.content.startsWith("!booty")) {
     message.channel.send(" https://gyazo.com/796975f0cdaeb7f184b7965709825a79 ");
   }
-        if (message.content.startsWith("!prices")) {
-    message.channel.send(" ```GFX:$5-$10 Setups:$10-$200 Accounts:$0.5-$2 ```");
+        if (message.content.startsWith("!ineedfriends")) {
+    message.channel.send(" ```Thats gone be $50 for 1 fake friend!```");
   }
   
 });
