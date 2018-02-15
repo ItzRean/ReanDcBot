@@ -28,7 +28,7 @@ client.on("message", (message) => {
     message.channel.send(" ```Thats gone be $50 for 1 fake friend!```");
   }
         if (message.content.startsWith("!hkq")) {
-    message.channel.send(" ```Litle girls with dreams become women with vision ```");
+    message.channel.send(" ```Darling , you are a goddess and once you know what that truly means, i pray for anyone who tries to hurt you ```");
   }
   
 });
