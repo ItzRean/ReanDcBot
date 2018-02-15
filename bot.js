@@ -21,6 +21,9 @@ client.on("message", (message) => {
       if (message.content.startsWith("!buy")) {
     message.channel.send(" ```Please dm rean#4356 ``` ");
   }
+        if (message.content.startsWith("!booty")) {
+    message.channel.send(" https://gyazo.com/796975f0cdaeb7f184b7965709825a79 ");
+  }
   
 });
 
