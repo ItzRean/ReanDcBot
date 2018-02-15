@@ -2,12 +2,12 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on("message", (message) => {
-  if (message.content.startsWith("ping")) {
-    message.channel.send("pong!");
+  if (message.content.startsWith("!friends")) {
+    message.channel.send("I can be your friend !");
   } else
 
   if (message.content.startsWith("!hello")) {
-    message.channel.send("Hai!");
+    message.reply("Hai!");
   }
 });
 
