@@ -46,17 +46,9 @@ client.on("message", (message) => {
   if (message.content === '!avatar') {
     message.reply(message.author.avatarURL);
   }
-  if (message.content === '!Pxbble') {
-    message.reply("I can build");
+  if (message.content === '!em') {
+    message.channel.sendEmbed(new Discord.richEmbet());
   }
-  if (message.content === '!user') {
-    message.channel.send({
-        embed: {
-            author: {
-                name: bot.user.username,
-                icon_url: bot.user.avatarURL
-  }
-  
 });
 
 client.on('guildMemberAdd', member => {
