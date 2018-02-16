@@ -56,8 +56,8 @@ client.on('guildMemberAdd', member => {
   channel.send(`Welcome to **HELL** ${member}`);
 
 });
-   if (message.content === '!user') {
-   console.log("Sending an embedd message");
+
+   if (message.content.startsWith("!user")) {
    message.channel.send({embed: {
     color: 3447003,
     title: "This is an embed (Title)",
