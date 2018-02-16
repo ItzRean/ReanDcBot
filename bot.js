@@ -43,6 +43,7 @@ client.on("message", (message) => {
        var role = member.guild.roles("name", "User");
      
        member.addRole(role)
+   }
 
 });
 
