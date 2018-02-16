@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-
+});
 client.on("message", (message) => {
   if (message.content.startsWith("!friends")) {
     message.channel.send(" ```I can be your friend!``` ");
@@ -48,6 +48,13 @@ client.on("message", (message) => {
   }
   if (message.content === '!Pxbble') {
     message.reply("I can build");
+  }
+  if (message.content === '!user') {
+    msg.channel.send({
+        embed: {
+            author: {
+                name: bot.user.username,
+                icon_url: bot.user.avatarURL
   }
   
 });
