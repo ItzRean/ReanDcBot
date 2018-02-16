@@ -46,7 +46,7 @@ client.on("message", (message) => {
   if (message.content === '!avatar') {
     message.reply(message.author.avatarURL);
   }
-  if (message.content.startsWith("!friends")) {
+  if (message.content.startsWith("!info")) {
     let comEmbed = new Discord.RichEmbed()
                 .setTitle("New Commission")
                 .setDescription("Added by <@" + message.member.id + ">")
