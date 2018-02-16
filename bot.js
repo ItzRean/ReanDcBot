@@ -32,27 +32,15 @@ client.on("message", (message) => {
         if (message.content.startsWith("!hkq")) {
     message.channel.send(" ```Darling , you are a goddess and once you know what that truly means, i pray for anyone who tries to hurt you ```");
   }
+   var embed = new discord.RichEmbed()
+               .setDescription("Bot Info");
+
+          if (message.content.startsWith("!bot")) {
+    message.channel.sendEmded(embed);
+        
+  }
+                              
   
-});
-bot.on("message", function(message) {
-    if (message.author.equals(bot.user)) return;  
-
-    if(!message.content.startsWith(PREFIX)) return;
-
-    var args = message.content.substring(PREFIX.length).split(" ");
-
-    switch (args[0].toLowerCase()) {
-        case "ping":
-            message.channel.sendMessage("pong!");
-            Break;
-        case "info":
-            message.channel.sendMessage("Bot developet by Rean#4356");
-            Break;
-        default:
-            message.channel.sendMessage("ERROR Invalid command")
-
-    }
-
 });
 
 // THIS  MUST  BE  THIS  WAY
