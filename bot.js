@@ -46,6 +46,9 @@ client.on("message", (message) => {
   if (message.content === '!avatar') {
     message.reply(message.author.avatarURL);
   }
+  if (message.content === '!Pxbble') {
+    message.reply("I can build");
+  }
   
 });
 
