@@ -38,7 +38,7 @@ client.on("message", (message) => {
     message.channel.send(" ```8===)```");
   }                    
   if (message.content.startsWith("!stefaan")) {
-    message.channel.send(" ```6.5 inches more you dont have to know```");
+    message.channel.send(" ```Our speedy runner```");
   }    
   if (message.content.startsWith("!myown")) {
     message.channel.send(" ```Contact Rean#4356 to buy a custom bot!```");
