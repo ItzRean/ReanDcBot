@@ -47,22 +47,6 @@ client.on("message", (message) => {
     message.reply(message.author.avatarURL);
   }
 });
-  client.on("message", (message) => {
-
-  if (message.content.startsWith("!info")) {
-                let comEmbed = new Discord.RichEmbed()
-                .setTitle("Role Request")
-                .setDescription("User: <@" + message.member.id + ">")
-                .setColor("#2C8CFC")
-                .addField("Type", group)
-                .addField("info", desc)
-                .setFooter("test");
-
-                message.channel.send(comEmbed);
-   }else
-
-
-});
 
 client.on('guildMemberAdd', member => {
 
