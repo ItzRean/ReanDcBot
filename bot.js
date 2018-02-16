@@ -11,7 +11,7 @@ client.on("message", (message) => {
     message.reply("Hai!");
   }
   if (message.content.startsWith("!version")) {
-    message.reply(" ```ReanBot Version: 0.0.3``` ");
+    message.reply(" ```ReanBot Version: 0.0.7``` ");
   }
   if (message.content.startsWith("!developer")) {
     message.reply(" ```The developer is Rean#4356``` ");
@@ -36,7 +36,13 @@ client.on("message", (message) => {
   }            
   if (message.content.startsWith("!penis")) {
     message.channel.send(" ```8===)```");
-  }                       
+  }                    
+  if (message.content.startsWith("!stefaan")) {
+    message.channel.send(" ```6.5 inches more you dont have to know```");
+  }    
+  if (message.content.startsWith("!myown")) {
+    message.channel.send(" ```Contact Rean#4356 to buy a custom bot!```");
+  }    
   
 });
 
