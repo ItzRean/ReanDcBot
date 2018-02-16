@@ -33,7 +33,10 @@ client.on("message", (message) => {
   }
   if (message.content.startsWith("!omicron")) {
     message.channel.send(" ```A Huge Fucking Giant!```");
-  }                           
+  }            
+  if (message.content.startsWith("!penis")) {
+    message.channel.send(" ```8===)```");
+  }                       
   
 });
 
