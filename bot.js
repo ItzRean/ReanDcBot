@@ -37,13 +37,12 @@ client.on("message", (message) => {
   
 });
    
-   bot.on("guildMemberAdd", member = {
+   bot.on("guildMemberAdd", member => {
        console.log("user " + member.user.username + " Has joined the server")
      
-       var role = member.guild.roles("name", "User");
+       var role = member.guild.roles.find("name", "User");
      
        member.addRole(role)
-   }
 
 });
 
