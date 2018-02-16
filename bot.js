@@ -48,12 +48,12 @@ client.on("message", (message) => {
   }
   if (message.content.startsWith("!info")) {
                 let comEmbed = new Discord.RichEmbed()
-                .setTitle("New Commission")
-                .setDescription("Added by <@" + message.member.id + ">")
+                .setTitle("Role Request")
+                .setDescription("User: <@" + message.member.id + ">")
                 .setColor("#2C8CFC")
                 .addField("Type", group)
-                .addField("Details", desc)
-                .setFooter("If you are able to do this commission please contact the person who added this commission.");
+                .addField("info", desc)
+                .setFooter("test");
 
                 channel.send(comEmbed);
 }
