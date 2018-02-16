@@ -50,7 +50,7 @@ client.on("message", (message) => {
     message.reply("I can build");
   }
   if (message.content === '!user') {
-    msg.channel.send({
+    message.channel.send({
         embed: {
             author: {
                 name: bot.user.username,
