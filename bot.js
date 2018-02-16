@@ -46,19 +46,6 @@ client.on("message", (message) => {
   if (message.content === '!avatar') {
     message.reply(message.author.avatarURL);
   }
-});
-  
-const Discord = require('discord.js');
-
-const embed = new Discord.RichEmbed();
-embed.setTitle('User');
-embed.setColor('#4caf50');                                        // A Hex color
-embed.setDescription('A description that supports `markdown`');
-embed.setURL('https://codebottle.io/');                           // A URL to include
-embed.setAuthor('OverCoder');                                     // Author of the object 
-
-// Send the embed to `channel`
-channel.sendEmbed(general);
 
 });
 
