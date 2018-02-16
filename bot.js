@@ -45,6 +45,15 @@ client.on("message", (message) => {
   if (message.content === '!avatar') {
     message.reply(message.author.avatarURL);
   }
+  if (message.content.startsWith("!user")) {
+   message.channel.send({embed: {
+    color: 3447003,
+    title: "This is an embed (Title)",
+    description: "Embed! (first line)\nsecond line of Desc\nthird line of"
+    footer: 
+    {
+        text: "Foot"
+    }
   
 });
 
@@ -57,15 +66,5 @@ client.on('guildMemberAdd', member => {
 
 });
 
-   if (message.content.startsWith("!user")) {
-   message.channel.send({embed: {
-    color: 3447003,
-    title: "This is an embed (Title)",
-    description: "Embed! (first line)\nsecond line of Desc\nthird line of"
-    footer: 
-    {
-        text: "Foot"
-    }
-});
 
 client.login(process.env.BOT_TOKEN);
