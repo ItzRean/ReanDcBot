@@ -55,7 +55,7 @@ client.on("message", (message) => {
                 .addField("info", desc)
                 .setFooter("test");
 
-                channel.send(comEmbed);
+                message.channel.send(comEmbed);
 }
 
 
