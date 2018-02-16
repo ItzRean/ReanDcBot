@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const PREFIX = "+"
 
 
 client.on("message", (message) => {
@@ -31,13 +30,6 @@ client.on("message", (message) => {
   }
         if (message.content.startsWith("!hkq")) {
     message.channel.send(" ```Darling , you are a goddess and once you know what that truly means, i pray for anyone who tries to hurt you ```");
-  }
-   var embed = new discord.RichEmbed()
-               .setDescription("Bot Info");
-
-          if (message.content.startsWith("!bot")) {
-    message.channel.sendEmded(embed);
-        
   }
                               
   
