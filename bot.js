@@ -46,9 +46,7 @@ client.on("message", (message) => {
   if (message.content === '!avatar') {
     message.reply(message.author.avatarURL);
   }
-  if (message.content === '!em') {
-    message.channel.sendEmbed("HelloThere");
-  }
+  
 });
 
 client.on('guildMemberAdd', member => {
