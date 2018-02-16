@@ -36,15 +36,6 @@ client.on("message", (message) => {
   }                           
   
 });
-   
-   bot.on("guildMemberAdd", member => {
-       console.log("user " + member.user.username + " Has joined the server")
-     
-       var role = member.guild.roles.find("name", "User");
-     
-       member.addRole(role)
-
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
