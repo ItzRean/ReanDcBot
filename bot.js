@@ -54,6 +54,19 @@ client.on('guildMemberAdd', member => {
 
   if (!channel) return;
   channel.send(`Welcome to **HELL** ${member}`);
+
+});
+   if (message.content.startsWith(config.prefix + "emb")) {
+   console.log("Sending an embedd message");
+   message.channel.send({embed: {
+    color: 3447003,
+    title: "This is an embed (Title)",
+    description: "Embed! (first line)\nsecond line of Desc\nthird line of 
+   Desc",
+    footer: 
+    {
+        text: "Foot"
+    }
 });
 
 client.login(process.env.BOT_TOKEN);
