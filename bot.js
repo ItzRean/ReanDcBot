@@ -42,7 +42,10 @@ client.on("message", (message) => {
   }    
   if (message.content.startsWith("!myown")) {
     message.channel.send(" ```Contact Rean#4356 to buy a custom bot!```");
-  }    
+  }   
+  if (message.content === '!avatar') {
+    message.reply(message.author.avatarURL);
+  }
   
 });
 
