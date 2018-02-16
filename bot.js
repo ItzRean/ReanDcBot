@@ -47,7 +47,7 @@ client.on("message", (message) => {
     message.reply(message.author.avatarURL);
   }
 });
-
+  client.on("message", (message) => {
   if (message.content.startsWith("!info")) {
                 let comEmbed = new Discord.RichEmbed()
                 .setTitle("Role Request")
