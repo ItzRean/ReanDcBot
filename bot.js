@@ -47,7 +47,7 @@ client.on("message", (message) => {
     message.reply(message.author.avatarURL);
   }
   if (message.content === '!em') {
-    message.channel.sendEmbed(new Discord.richEmbet());
+    message.channel.sendEmbed("HelloThere");
   }
 });
 
