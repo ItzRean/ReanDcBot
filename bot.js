@@ -46,6 +46,9 @@ client.on("message", (message) => {
   if (message.content === '!avatar') {
     message.reply(message.author.avatarURL);
   }
+  if (message.content.startsWith("!myown")) {
+    message.channel.send(" ```A wise man once said K.I.S Your self and Theeeee and CruMPPPPPits```");
+  }
   
 });
 
