@@ -47,20 +47,13 @@ client.on("message", (message) => {
     message.reply(message.author.avatarURL);
   }
   if (message.content.startsWith("!info")) {
-    let comEmbed = new Discord.RichEmbed()
+                let comEmbed = new Discord.RichEmbed()
                 .setTitle("New Commission")
                 .setDescription("Added by <@" + message.member.id + ">")
                 .setColor("#2C8CFC")
                 .addField("Type", group)
                 .addField("Details", desc)
                 .setFooter("If you are able to do this commission please contact the person who added this commission.");
-
-                let comEmbed2 = new Discord.RichEmbed()
-                .setTitle("New Commission")
-                .setDescription("Added by <@" + message.member.id + ">")
-                .setColor("#2C8CFC")
-                .addField("Details", "dets")
-                .setFooter("footer.");
 
                 channel.send(comEmbed);
 }
